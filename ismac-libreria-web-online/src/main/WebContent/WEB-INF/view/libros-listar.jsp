@@ -54,7 +54,7 @@
                 <td>${item.iSBN}</td>
                 <td>${item.numEjemplares}</td>
                 <td>                    
-                    <img alt="portada de libro" width="150" height="150" src="${pageContext.request.contextPath}/resources/img/${item.portada}">
+                   <img alt="portada de libro" width="150" height="150" src="${pageContext.request.contextPath}/resources/img/${item.portada}">
                 </td>
                 <td>${item.presentacion}</td>
                 <td>${item.precio}</td>
