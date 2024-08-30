@@ -48,16 +48,16 @@
                 <td>${item.numPaginas}</td>
                 <td>${item.edicion}</td>
                 <td>${item.idioma}</td>
-                <td>${fn:substring(item.fechaPublicacion,0,10)}</td>
+                <td>${fn:substring(item.fechaPublicacion,0,10)} </td>
                 <td>${item.descripcion}</td>
                 <td>${item.tipoPasta}</td>
-                <td>${item.iSBN}</td>
+                <td>${item.ISBN}</td>
                 <td>${item.numEjemplares}</td>
                 <td>                    
-                   <img alt="portada de libro" width="150" height="150" src="${pageContext.request.contextPath}/resources/img/${item.portada}">
+                  <img alt="portada de libro" width="150" height="150" src="${pageContext.request.contextPath}/resources/img/${item.portada}">
                 </td>
-                <td>${item.presentacion}</td>
-                <td>${item.precio}</td>
+                <td>${item.presentacion} </td>
+                <td>${item.precio} </td>
                 <td>${item.autor.nombre} ${item.autor.apellido}</td>
                 <td>${item.categoria.categoria}</td>
                 <td>

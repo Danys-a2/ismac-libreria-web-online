@@ -12,6 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 
 
@@ -41,6 +42,7 @@ public class Libro {
 	private String edicion;
 	@Column(name="idioma")
 	private String idioma;
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	@Column(name="fecha_publicacion")
 	private Date fechaPublicacion;
 	@Column(name="descripcion")
@@ -48,7 +50,7 @@ public class Libro {
 	@Column(name="tipo_pasta")
 	private String tipoPasta;
 	@Column(name="ISBN")
-	private String iSBN;
+	private String ISBN;
 	@Column(name="num_ejemplares")
 	private int numEjemplares;
 	@Column(name="portada")
@@ -71,7 +73,7 @@ public class Libro {
 
 	
 		public Libro(int idLibro, String titulo, String editorial, int numPaginas, String edicion, String idioma,
-			Date fechaPublicacion, String descripcion, String tipoPasta, String iSBN, int numEjemplares, String portada,
+			Date fechaPublicacion, String descripcion, String tipoPasta, String ISBN, int numEjemplares, String portada,
 			String presentacion, double precio) {
 		this.idLibro = idLibro;
 		this.titulo = titulo;
@@ -82,7 +84,7 @@ public class Libro {
 		this.fechaPublicacion = fechaPublicacion;
 		this.descripcion = descripcion;
 		this.tipoPasta = tipoPasta;
-		this.iSBN = iSBN;
+		this.ISBN = ISBN;
 		this.numEjemplares = numEjemplares;
 		this.portada = portada;
 		this.presentacion = presentacion;
@@ -165,12 +167,12 @@ public class Libro {
 		this.tipoPasta = tipoPasta;
 	}
 
-	public String getiSBN() {
-		return iSBN;
+	public String getISBN() {
+		return ISBN;
 	}
 
-	public void setiSBN(String iSBN) {
-		this.iSBN = iSBN;
+	public void setISBN(String ISBN) {
+		this.ISBN = ISBN;
 	}
 
 	public int getNumEjemplares() {
@@ -225,7 +227,7 @@ public class Libro {
     public String toString() {
         return "Libro [idLibro=" + idLibro + ", titulo=" + titulo + ", editorial=" + editorial + ", numPaginas="
                 + numPaginas + ", edicion=" + edicion + ", idioma=" + idioma + ", fechaPublicacion=" + fechaPublicacion
-                + ", descripcion=" + descripcion + ", tipoPasta=" + tipoPasta + ", iSBN=" + iSBN + ", numEjemplares="
+                + ", descripcion=" + descripcion + ", tipoPasta=" + tipoPasta + ", ISBN=" + ISBN + ", numEjemplares="
                 + numEjemplares + ", portada=" + portada + ", presentacion=" + presentacion + ", precio=" + precio
                 + ", categoria=" + categoria + ", autor=" + autor + "]";
     }
