@@ -39,22 +39,22 @@
              <tr>   
               
                 <th data-field="Id" data-sortable="true"> idLibro</th>
-                <th data-field="Título" data-sortable="true">> titulo</th>
-                <th data-field="Editorial" data-sortable="true">> editorial</th>
-                <th data-field="Número de Páginas" data-sortable="true">> numPaginas</th>
-                <th data-field="Edición" data-sortable="true">> edicion</th>
-                <th data-field="Idioma" data-sortable="true">> idioma</th>
-                <th data-field="Fecha de Publicación" data-sortable="true">> fechaPublicacion</th>
-                <th data-field="Descripción" data-sortable="true">> descripcion</th>
-                <th data-field="Tipo de Pasta" data-sortable="true">> tipoPasta</th>
-                <th data-field="ISBN" data-sortable="true">> ISBN</th>
-                <th data-field="Número de Ejemplares" data-sortable="true">> numEjemplares</th>
-                <th data-field="Portada" data-sortable="true">> portada</th>
-                <th data-field="Presentación" data-sortable="true">> presentacion</th>
-                <th data-field="Precio" data-sortable="true">> precio</th>
-                <th data-field="Autor" data-sortable="true">> autor</th>
-                <th data-field="Categoria" data-sortable="true">> categoria</th>
-                <th data-field="Acciones" data-sortable="true">> Acciones</th>
+                <th data-field="Título" data-sortable="true"> titulo</th>
+                <th data-field="Editorial" data-sortable="true"> editorial</th>
+                <th data-field="Número de Páginas" data-sortable="true"> numPaginas</th>
+                <th data-field="Edición" data-sortable="true"> edicion</th>
+                <th data-field="Idioma" data-sortable="true"> idioma</th>
+                <th data-field="Fecha de Publicación" data-sortable="true"> fechaPublicacion</th>
+                <th data-field="Descripción" data-sortable="true"> descripcion</th>
+                <th data-field="Tipo de Pasta" data-sortable="true"> tipoPasta</th>
+                <th data-field="ISBN" data-sortable="true"> ISBN</th>
+                <th data-field="Número de Ejemplares" data-sortable="true"> numEjemplares</th>
+                <th data-field="Portada" data-sortable="true"> portada</th>
+                <th data-field="Presentación" data-sortable="true"> presentacion</th>
+                <th data-field="Precio" data-sortable="true"> precio</th>
+                <th data-field="Autor" data-sortable="true"> autor</th>
+                <th data-field="Categoria" data-sortable="true"> categoria</th>
+                <th data-field="Acciones" data-sortable="true"> Acciones</th>
                 
              </tr>
           </thead>
